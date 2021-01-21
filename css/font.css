@@ -3,10 +3,8 @@
 body {
   margin-left: 10vw;
   margin-right: 10vw;
-
   font-family: 'Courier Prime', Courier, monospace;
   font-style: italic;
-
   line-height: 1.5rem;
 }
 
@@ -24,12 +22,9 @@ p {
 blockquote {
   background-color: #e4e4e4f5;
   border-style: inset;
-
   padding: 0.8rem;
   max-width: fit-content;
-
   font-weight: 700;
-
   letter-spacing: 0.1rem;
 }
 
