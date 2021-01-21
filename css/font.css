@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,700;1,400&family=Montserrat:ital,wght@0,700;1,700&display=swap');
+
+body {
+  margin-left: 10vw;
+  margin-right: 10vw;
+
+  font-family: 'Courier Prime', Courier, monospace;
+  font-style: italic;
+
+  line-height: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps;
+  font-size: 36px;
+  font-style: normal;
+}
+
+p {
+  max-width: 50ch;
+}
+
+blockquote {
+  background-color: #e4e4e4f5;
+  border-style: inset;
+
+  padding: 0.8rem;
+  max-width: fit-content;
+
+  font-weight: 700;
+
+  letter-spacing: 0.1rem;
+}
+
+blockquote:before {
+content: open-quote;
+font-size: 2rem;
+color: white;
+}
+
+blockquote:after {
+  content: close-quote;
+  font-size: 2rem;
+  color: white;
+}
